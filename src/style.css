@@ -1,1 +1,5 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.cardNumber {
+  font-size: 150px;
+  font-family: "Gideon Roman", serif;
+}
