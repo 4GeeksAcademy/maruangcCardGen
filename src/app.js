@@ -36,13 +36,13 @@ function newCard() {
   let randomNum = Math.floor(Math.random() * cards.length);
   let randomIcon = Math.floor(Math.random() * pintas.length);
   let ourHtml = `
-  <div class="justify-content-start p-1 display-1 mt-3 ms-3">
+  <div class="justify-content-start display-1 mt-2 ms-2">
     ${pintas[randomIcon]}
   </div>
-  <div class="d-flex justify-content-center p-5 fs-1">
+  <div class="d-flex justify-content-center fs-1">
     <h1 class="cardNumber">${cards[randomNum]}</h1>
   </div>
-  <div class="d-flex justify-content-end p-1 display-1 mb-3 me-3">
+  <div class="d-flex justify-content-end display-1 mb-2 me-2">
     ${pintasInvertidas[randomIcon]}
   </div>`;
   ourCard.innerHTML = ourHtml;
